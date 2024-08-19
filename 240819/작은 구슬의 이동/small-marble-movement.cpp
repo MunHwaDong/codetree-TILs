@@ -10,7 +10,7 @@ int main() {
     int n = 0, t = 0, r = 0, c = 0;
     char d = 0;
 
-    int dx[4] = {1, 0, -1, 0};
+    int dx[4] = {-1, 0, 1, 0};
     int dy[4] = {0, 1, 0, -1};
 
     cin >> n >> t;
@@ -41,7 +41,7 @@ int main() {
                 cur_stat = 3;
             else if(cur_stat == 2)
                 cur_stat = 0;
-            else
+            else if(cur_stat == 3)
                 cur_stat = 1;
         }
         else
