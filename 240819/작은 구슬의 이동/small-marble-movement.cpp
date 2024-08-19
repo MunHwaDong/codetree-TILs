@@ -35,11 +35,11 @@ int main() {
 
         if(nx <= 0 || nx > n || ny <= 0 || ny > n)
         {
-            if(d == 0)
+            if(cur_stat == 0)
                 cur_stat = 2;
-            else if(d == 1)
+            else if(cur_stat == 1)
                 cur_stat = 3;
-            else if(d == 2)
+            else if(cur_stat == 2)
                 cur_stat = 0;
             else
                 cur_stat = 1;
