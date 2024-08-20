@@ -27,7 +27,7 @@ int main() {
         }
         else if(s[i] == 'L')
         {
-            dir -= (-1);
+            dir = dir - 1;
 
             if(dir <= -1)
             {
