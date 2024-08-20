@@ -29,7 +29,7 @@ int main() {
         {
             dir -= (-1);
 
-            if(dir == -1)
+            if(dir <= -1)
             {
                 dir = 3;
             }
@@ -38,7 +38,7 @@ int main() {
         {
             dir += 1;
 
-            if(dir == 4)
+            if(dir >= 4)
             {
                 dir = 0;
             }
