@@ -87,7 +87,7 @@ int main() {
 
         //cout << cur.first << " " << cur.second << endl;
 
-        if(cur.first < 0 || cur.first >= n || cur.second < 0 || cur.second >= n)
+        if(cur.first < 0 || cur.first > n || cur.second < 0 || cur.second > n)
         {
             break;
         }
